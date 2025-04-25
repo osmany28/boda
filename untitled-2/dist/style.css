@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f1ec;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url('https://i.postimg.cc/152BD0mm/temp-Image5y-It-SC.avif') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* para bajar el cuadro */
+  padding-bottom: 50px; /* espacio desde abajo */
+}
+
+/* Cuadro translúcido pequeño */
+.content {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Botón */
+.boton {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #a6785a;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.9rem 2.5rem;
+  border: 2px solid #d4af37;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.boton:hover {
+  background-color: #d4af37;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .boton {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+
+  .content {
+    padding: 0.8rem 1.5rem;
+  }
+}

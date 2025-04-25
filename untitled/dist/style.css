@@ -1,0 +1,161 @@
+.nombre-boda {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  color: #a6785a;
+}
+.nombre-boda {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  color: #a6785a;
+}
+
+.titulo-boda {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  color: #a6785a;
+}
+
+.boton {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+  display: inline-block;
+  background-color: #a6785a;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #8b5e45;
+}
+
+.mapa iframe {
+  width: 100%;        /* Hace que el mapa ocupe todo el ancho disponible */
+  max-width: 800px;   /* Limita el tamaño máximo para pantallas grandes */
+  height: 450px;      /* Establece la altura del mapa */
+  border: none;       /* Elimina el borde */
+  border-radius: 12px; /* Opcional, para bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional, agrega sombra */
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7f1e1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #4f3628;
+}
+
+.contador {
+    margin: 100px auto 50px auto;
+    padding: 40px;
+    background-color: #f4f0e1;
+    border-radius: 25px;
+    width: 80%;
+    max-width: 750px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #2d1f17;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#contador-regresivo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#contador-regresivo div {
+    background-color: #ffffff;
+    color: #4f3628;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contador-regresivo div span {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #b28e6e;
+    margin-top: 5px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .contador {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #contador-regresivo {
+        gap: 15px;
+    }
+
+    #contador-regresivo div {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    #contador-regresivo div span {
+        font-size: 11px;
+    }
+}
+<style>
+  body {
+    background-color: #fdf8f3; /* tono arena muy suave */
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .seccion-boda {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fcf6ee;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  }
+
+  .titulo-boda {
+    font-size: 36px;
+    font-weight: 600;
+    color: #375a6d; /* azul marino grisáceo elegante */
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .seccion-boda p {
+    font-size: 20px;
+    color: #806c5a; /* marrón cálido y claro */
+    margin: 8px 0;
+  }
+</style>
